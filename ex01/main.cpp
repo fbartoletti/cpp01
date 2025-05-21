@@ -2,7 +2,7 @@
 
 int main(){
 	int numZombies = 5;
-	std::string ZombieName("SwagZombie");
+	std::string ZombieName("swagZombie");
 	std::cout << "Creating a horde of " << numZombies << " zombie: " << std::endl;
 	Zombie* horde = zombieHorde(numZombies, ZombieName);
 	for (int i = 0; i < numZombies; i++){

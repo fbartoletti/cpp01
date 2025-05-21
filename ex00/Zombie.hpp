@@ -13,7 +13,6 @@ public:
 	void announce(void);
 };
 
-// my functions
 Zombie* newZombie(std::string name);
 void randomChump(std::string name);
 
